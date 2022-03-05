@@ -37,7 +37,7 @@ public class PowergenContainer extends AbstractContainerMenu {
                 addSlot(new SlotItemHandler(h, 0, 80, 20));
             });
         }
-        layoutPlayerInventorySlots(8, 55);
+        layoutPlayerInventorySlots(8, 54);
         trackPower();
     }
 
