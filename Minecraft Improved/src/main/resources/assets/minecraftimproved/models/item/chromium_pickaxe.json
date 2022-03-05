@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "minecraftimproved:item/chromium_pickaxe"
-  }
-}
