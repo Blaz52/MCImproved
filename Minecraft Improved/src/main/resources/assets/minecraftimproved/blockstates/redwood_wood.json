@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minecraftimproved:block/redwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraftimproved:block/redwood_wood"
+    },
+    "axis=z": {
+      "model": "minecraftimproved:block/redwood_wood",
+      "x": 90
+    }
+  }
+}

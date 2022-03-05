@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mcimproved:powergen",
+    "mcimproved:aluminum_ore",
+    "mcimproved:aluminum_ore_nether",
+    "mcimproved:aluminum_ore_deepslate"
+  ]
+}

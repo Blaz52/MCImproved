@@ -1,0 +1,74 @@
+{
+
+
+  "item.minecraftimproved.end_ingot": "End Ingot",
+  "item.minecraftimproved.chromium_ingot": "Chromium Ingot",
+  "item.minecraftimproved.raw_chromium": "Raw Chromium",
+  "item.minecraftimproved.sulfur_dust": "Sulfur Dust",
+
+
+
+
+
+  "item.minecraftimproved.chromium_helmet": "Chromium Helmet",
+  "item.minecraftimproved.chromium_leggings": "Chromium Leggings",
+  "item.minecraftimproved.chromium_chestplate": "Chromium Chestplate",
+  "item.minecraftimproved.chromium_boots": "Chromium Boots",
+  "item.minecraftimproved.end_helmet": "Ender Helmet",
+  "item.minecraftimproved.end_leggings": "Ender Leggings",
+  "item.minecraftimproved.end_chestplate": "Ender Chestplate",
+  "item.minecraftimproved.end_boots": "Ender Boots",
+  "item.minecraftimproved.silver_helmet": "Silver Helmet",
+  "item.minecraftimproved.silver_leggings": "Silver Leggings",
+  "item.minecraftimproved.silver_chestplate": "Silver Chestplate",
+  "item.minecraftimproved.silver_boots": "Silver Boots",
+
+
+
+  "block.minecraftimproved.silver_ore": "Silver Ore",
+  "block.minecraftimproved.chromium_ore": "Chromium Ore",
+  "block.minecraftimproved.chromium_block": "Chromium Block",
+  "block.minecraftimproved.end_block": "Block of Ender",
+  "block.minecraftimproved.end_ore": "End Ore",
+  "block.minecraftimproved.sulfur_block": "Sulfur Block ",
+  "block.minecraftimproved.sulfur_ore": "Sulfur Ore",
+  "block.minecraftimproved.red_dirt": "Red Dirt",
+  "block.minecraftimproved.darkaether_block": "Block of Dark Aether",
+  "block.minecraftimproved.silver_ingot": "Silver Ingot",
+
+
+  "itemGroup.minecraftimprovedTab": "Minecraft Improved Tab",
+
+
+
+  "item.minecraftimproved.chromium_sword": "Chromium Sword",
+  "item.minecraftimproved.chromium_shovel": "Chromium Shovel",
+  "item.minecraftimproved.chromium_pickaxe": "Chromium Pickaxe",
+  "item.minecraftimproved.chromium_hoe": "Chromium Hoe",
+  "item.minecraftimproved.chromium_axe": "Chromium Axe",
+
+
+  "block.minecraftimproved.redwood_log": "Redwood Log",
+  "block.minecraftimproved.redwood_planks": "Redwood Planks",
+  "block.minecraftimproved.redwood_wood": "Redwood Wood",
+  "block.minecraftimproved.stripped_redwood_log": "Stripped Redwood Log",
+  "block.minecraftimproved.stripped_redwood_wood": "Stripped Redwood Wood",
+
+  "block.minecraftimproved.redwood_sapling": "Redwood Sapling ",
+  "block.minecraftimproved.redwood_leaves": "Redwood Leaves",
+
+  "item.minecraftimproved.scanner.not_usable": "This item cannot be used in END",
+  "item.minecraftimproved.scanner": "Scanner",
+  "item.minecraftimproved.scanner.no_ores": "No ores found!",
+
+  "item.minecraftimproved.silver_sword": "Silver Sword",
+  "item.minecraftimproved.silver_shovel": "Silver Shovel",
+  "item.minecraftimproved.silver_pickaxe": "Silver Pickaxe",
+  "item.minecraftimproved.silver_hoe": "Silver Hoe",
+  "item.minecraftimproved.silver_axe": "Silver Axe",
+
+  "item.minecraftimproved.end_sword": "Ender Sword",
+
+  "enchantment.minecraftimproved.thunder_strike": "Thunder Strike",
+  "enchantment.minecraftimproved.fireball_strike": "Fireball Strike"
+}

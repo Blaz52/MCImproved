@@ -1,0 +1,11 @@
+{
+  "block.mcimproved.aluminum_ore": "Aluminum ore",
+  "block.mcimproved.aluminum_ore_deepslate": "Aluminum ore",
+  "block.mcimproved.aluminum_ore_nether": "Aluminum ore",
+  "block.mcimproved.powergen": "Power Generator",
+  "item.mcimproved.aluminum_ingot": "Aluminum Ingot",
+  "item.mcimproved.raw_aluminum": "Raw Aluminum",
+  "itemGroup.mcimproved": "MCI",
+  "message.powergen": "%sFE/tick!",
+  "screen.mci.powergen": "Power generator"
+}

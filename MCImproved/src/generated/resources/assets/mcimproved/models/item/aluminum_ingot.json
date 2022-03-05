@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mcimproved:item/aluminum_ingot"
+  }
+}

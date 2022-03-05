@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraftimproved:redwood_log",
+    "minecraftimproved:redwood_wood",
+    "minecraftimproved:stripped_redwood_log",
+    "minecraftimproved:stripped_redwood_wood"
+  ]
+}
