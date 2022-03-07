@@ -21,13 +21,21 @@ public class MCIItemTags extends ItemTagsProvider {
         tag(Tags.Items.ORES)
                 .add(Registration.ALUMINUM_ORE_ITEM.get())
                 .add(Registration.ALUMINUM_ORE_NETHER_ITEM.get())
-                .add(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get());
+                .add(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get())
+                .add(Registration.PLATINUM_ORE_ITEM.get())
+                .add(Registration.PLATINUM_ORE_NETHER_ITEM.get())
+                .add(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get());
         tag(Tags.Items.INGOTS)
-                .add(Registration.ALUMINUM_INGOT.get());
+                .add(Registration.ALUMINUM_INGOT.get())
+                .add(Registration.PLATINUM_INGOT.get());
         tag(Registration.ALUMINUM_ORE_ITEM_ALL)
                 .add(Registration.ALUMINUM_ORE_ITEM.get())
                 .add(Registration.ALUMINUM_ORE_NETHER_ITEM.get())
                 .add(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get());
+        tag(Registration.PLATINUM_ORE_ITEM_ALL)
+                .add(Registration.PLATINUM_ORE_ITEM.get())
+                .add(Registration.PLATINUM_ORE_NETHER_ITEM.get())
+                .add(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get());
     }
 
     @Override

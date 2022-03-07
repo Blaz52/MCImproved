@@ -29,6 +29,12 @@ public class MCIBlockStates extends BlockStateProvider {
         simpleBlock(Registration.ALUMINUM_ORE.get());
         simpleBlock(Registration.ALUMINUM_ORE_NETHER.get());
         simpleBlock(Registration.ALUMINUM_ORE_DEEPSLATE.get());
+        simpleBlock(Registration.ALUMINUM_BLOCK.get());
+
+        simpleBlock(Registration.PLATINUM_ORE.get());
+        simpleBlock(Registration.PLATINUM_ORE_NETHER.get());
+        simpleBlock(Registration.PLATINUM_ORE_DEEPSLATE.get());
+        simpleBlock(Registration.PLATINUM_BLOCK.get());
 
     }
 

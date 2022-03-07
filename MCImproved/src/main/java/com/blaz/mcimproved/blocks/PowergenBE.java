@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicInteger;
 
     public class PowergenBE extends BlockEntity {
-
+        @Nonnull
         public static final int POWERGEN_CAPACITY = 50000; // Max capacity
         public static final int POWERGEN_GENERATE = 60;    // Generation per tick
         public static final int POWERGEN_SEND = 200;       // Power to send out per tick

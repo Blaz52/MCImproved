@@ -21,12 +21,23 @@ public class MCIBlockTags extends BlockTagsProvider {
                 .add(Registration.POWERGEN.get())
                 .add(Registration.ALUMINUM_ORE.get())
                 .add(Registration.ALUMINUM_ORE_NETHER.get())
-                .add(Registration.ALUMINUM_ORE_DEEPSLATE.get());
+                .add(Registration.ALUMINUM_ORE_DEEPSLATE.get())
+                .add(Registration.ALUMINUM_BLOCK.get())
+                .add(Registration.PLATINUM_ORE.get())
+                .add(Registration.PLATINUM_ORE_NETHER.get())
+                .add(Registration.PLATINUM_ORE_DEEPSLATE.get())
+                .add(Registration.PLATINUM_BLOCK.get());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(Registration.PLATINUM_ORE.get())
+                .add(Registration.PLATINUM_ORE_NETHER.get())
+                .add(Registration.PLATINUM_ORE_DEEPSLATE.get())
+                .add(Registration.PLATINUM_BLOCK.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(Registration.POWERGEN.get())
                 .add(Registration.ALUMINUM_ORE.get())
                 .add(Registration.ALUMINUM_ORE_NETHER.get())
-                .add(Registration.ALUMINUM_ORE_DEEPSLATE.get());
+                .add(Registration.ALUMINUM_ORE_DEEPSLATE.get())
+                .add(Registration.ALUMINUM_BLOCK.get());
         tag(Tags.Blocks.ORES)
                 .add(Registration.ALUMINUM_ORE.get())
                 .add(Registration.ALUMINUM_ORE_NETHER.get())

@@ -19,7 +19,7 @@ public class MCImproved {
     public static final String MODID = "mcimproved";
 
     public MCImproved() {
-
+        ModSetup.setup();
         Registration.init();
 
 

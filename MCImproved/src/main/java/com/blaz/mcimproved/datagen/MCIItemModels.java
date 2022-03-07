@@ -17,8 +17,21 @@ public class MCIItemModels extends ItemModelProvider {
         withExistingParent(Registration.ALUMINUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_ore"));
         withExistingParent(Registration.ALUMINUM_ORE_NETHER_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_ore_nether"));
         withExistingParent(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_ore_deepslate"));
+        withExistingParent(Registration.ALUMINUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_block"));
+
+        withExistingParent(Registration.PLATINUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore"));
+        withExistingParent(Registration.PLATINUM_ORE_NETHER_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore_nether"));
+        withExistingParent(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore_deepslate"));
+        withExistingParent(Registration.PLATINUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_block"));
 
         withExistingParent(Registration.POWERGEN_ITEM.get().getRegistryName().getPath(), modLoc("block/powergen/main"));
+
+        singleTexture(Registration.RAW_PLATINUM.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", modLoc("item/raw_platinum"));
+        singleTexture(Registration.PLATINUM_INGOT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", modLoc("item/platinum_ingot"));
 
         singleTexture(Registration.RAW_ALUMINUM.get().getRegistryName().getPath(),
                 mcLoc("item/generated"),
