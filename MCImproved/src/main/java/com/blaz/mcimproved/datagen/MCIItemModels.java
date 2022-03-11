@@ -15,7 +15,6 @@ public class MCIItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         withExistingParent(Registration.ALUMINUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_ore"));
-        withExistingParent(Registration.ALUMINUM_ORE_NETHER_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_ore_nether"));
         withExistingParent(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_ore_deepslate"));
         withExistingParent(Registration.ALUMINUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_block"));
 
@@ -24,7 +23,6 @@ public class MCIItemModels extends ItemModelProvider {
         withExistingParent(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore_deepslate"));
         withExistingParent(Registration.PLATINUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_block"));
 
-        withExistingParent(Registration.POWERGEN_ITEM.get().getRegistryName().getPath(), modLoc("block/powergen/main"));
 
         singleTexture(Registration.RAW_PLATINUM.get().getRegistryName().getPath(),
                 mcLoc("item/generated"),

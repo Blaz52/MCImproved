@@ -3,6 +3,7 @@ package com.blaz.mcimproved.datagen;
 
 import com.blaz.mcimproved.setup.Registration;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
+import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
@@ -40,28 +41,18 @@ public class MCIRecipes extends RecipeProvider {
                 .unlockedBy("platinum", InventoryChangeTrigger.TriggerInstance.hasItems(Registration.PLATINUM_INGOT.get()))
                 .save(consumer);
 
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.ALUMINUM_ORE_ITEM_ALL),
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.ALUMINUM_ORE_ITEM1),
                         Registration.ALUMINUM_INGOT.get(), 1.0f, 100)
-                .unlockedBy("has_ore", has(Registration.ALUMINUM_ORE_ITEM_ALL))
+                .unlockedBy("has_ore", inventoryTrigger(ItemPredicate.Builder.item().of(Registration.ALUMINUM_ORE_ITEM1).build()))
                 .save(consumer, "aluminum_ingot1");
 
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.RAW_ALUMINUM.get()),
                         Registration.ALUMINUM_INGOT.get(), 0.0f, 100)
-                .unlockedBy("has_raw_aluminum", has(Registration.RAW_ALUMINUM.get()))
+                .unlockedBy("has_chunk", has(Registration.RAW_ALUMINUM.get()))
                 .save(consumer, "aluminum_ingot2");
-
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.PLATINUM_ORE_ITEM_ALL),
-                        Registration.PLATINUM_INGOT.get(), 1.0f, 100)
-                .unlockedBy("has_ore", has(Registration.PLATINUM_ORE_ITEM_ALL))
-                .save(consumer, "platinum_ingot1");
-
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.RAW_PLATINUM.get()),
-                        Registration.PLATINUM_INGOT.get(), 0.0f, 100)
-                .unlockedBy("has_raw_platinum", has(Registration.RAW_PLATINUM.get()))
-                .save(consumer, "platinum_ingot2");
+    }
 
 
 
 
     }
-}

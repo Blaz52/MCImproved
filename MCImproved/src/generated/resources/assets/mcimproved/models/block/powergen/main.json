@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
+    "window": "mcimproved:block/powergen_window",
     "particle": "mcimproved:block/powergen_off"
   },
   "elements": [

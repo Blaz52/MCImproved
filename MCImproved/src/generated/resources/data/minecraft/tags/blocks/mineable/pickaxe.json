@@ -4,6 +4,11 @@
     "mcimproved:powergen",
     "mcimproved:aluminum_ore",
     "mcimproved:aluminum_ore_nether",
-    "mcimproved:aluminum_ore_deepslate"
+    "mcimproved:aluminum_ore_deepslate",
+    "mcimproved:aluminum_block",
+    "mcimproved:platinum_ore",
+    "mcimproved:platinum_ore_nether",
+    "mcimproved:platinum_ore_deepslate",
+    "mcimproved:platinum_block"
   ]
 }

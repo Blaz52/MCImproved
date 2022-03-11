@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mcimproved:aluminum_ingot"
+    "mcimproved:aluminum_ingot",
+    "mcimproved:platinum_ingot"
   ]
 }

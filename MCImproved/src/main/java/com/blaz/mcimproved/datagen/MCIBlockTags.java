@@ -18,9 +18,8 @@ public class MCIBlockTags extends BlockTagsProvider {
     @Override
     protected void addTags() {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(Registration.POWERGEN.get())
+
                 .add(Registration.ALUMINUM_ORE.get())
-                .add(Registration.ALUMINUM_ORE_NETHER.get())
                 .add(Registration.ALUMINUM_ORE_DEEPSLATE.get())
                 .add(Registration.ALUMINUM_BLOCK.get())
                 .add(Registration.PLATINUM_ORE.get())
@@ -33,18 +32,15 @@ public class MCIBlockTags extends BlockTagsProvider {
                 .add(Registration.PLATINUM_ORE_DEEPSLATE.get())
                 .add(Registration.PLATINUM_BLOCK.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(Registration.POWERGEN.get())
+
                 .add(Registration.ALUMINUM_ORE.get())
-                .add(Registration.ALUMINUM_ORE_NETHER.get())
                 .add(Registration.ALUMINUM_ORE_DEEPSLATE.get())
                 .add(Registration.ALUMINUM_BLOCK.get());
         tag(Tags.Blocks.ORES)
                 .add(Registration.ALUMINUM_ORE.get())
-                .add(Registration.ALUMINUM_ORE_NETHER.get())
                 .add(Registration.ALUMINUM_ORE_DEEPSLATE.get());
-        tag(Registration.ALUMINUM_ORE_ALL)
+        tag(Registration.ALUMINUM_ORE1)
                  .add(Registration.ALUMINUM_ORE.get())
-                 .add(Registration.ALUMINUM_ORE_NETHER.get())
                  .add(Registration.ALUMINUM_ORE_DEEPSLATE.get());
     }
 
