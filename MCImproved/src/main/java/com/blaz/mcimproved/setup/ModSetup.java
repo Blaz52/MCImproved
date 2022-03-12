@@ -8,6 +8,7 @@ import net.minecraft.world.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import org.apache.commons.compress.harmony.archive.internal.nls.Messages;
 
 public class ModSetup {
     public static final String TAB_NAME = "mcimproved";

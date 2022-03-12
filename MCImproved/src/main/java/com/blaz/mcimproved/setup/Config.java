@@ -15,6 +15,8 @@ public class Config {
     }
 
     private static void registerServerConfigs() {
+        ForgeConfigSpec.Builder CLIENT_BUILDER = new ForgeConfigSpec.Builder();
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, CLIENT_BUILDER.build());
     }
 
 

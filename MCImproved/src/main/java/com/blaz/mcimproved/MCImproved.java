@@ -1,6 +1,7 @@
 package com.blaz.mcimproved;
 
 import com.blaz.mcimproved.setup.ClientSetup;
+import com.blaz.mcimproved.setup.Config;
 import com.blaz.mcimproved.setup.ModSetup;
 import com.blaz.mcimproved.setup.Registration;
 
@@ -21,6 +22,7 @@ public class MCImproved {
     public MCImproved() {
         ModSetup.setup();
         Registration.init();
+        Config.register();
 
 
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
