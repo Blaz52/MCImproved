@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_raw_aluminum": {
+    "has_chunk": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_raw_aluminum",
+      "has_chunk",
       "has_the_recipe"
     ]
   ]

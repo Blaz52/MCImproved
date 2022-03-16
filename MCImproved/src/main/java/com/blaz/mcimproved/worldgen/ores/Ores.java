@@ -28,31 +28,35 @@ public class Ores {
     public static Holder<PlacedFeature> END_OREGEN;
 
     public static void registerConfiguredFeatures() {
-        OreConfiguration overworldConfig = new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.ALUMINUM_ORE.get().defaultBlockState(), OresConfig.OVERWORLD_VEINSIZE.get());
-        OVERWORLD_OREGEN = registerPlacedFeature("overworld_aluminum_ore", new ConfiguredFeature<>(Feature.ORE, overworldConfig),
+        OreConfiguration aluminumConfig = new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.ALUMINUM_ORE.get().defaultBlockState(), OresConfig.OVERWORLD_VEINSIZE.get());
+        OreConfiguration platinumConfig = new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.PLATINUM_ORE.get().defaultBlockState(), OresConfig.OVERWORLD_VEINSIZE.get());
+        OreConfiguration deepslateAluminumConfig = new OreConfiguration(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, Registration.ALUMINUM_ORE_DEEPSLATE.get().defaultBlockState(), OresConfig.DEEPSLATE_VEINSIZE.get());
+        OreConfiguration deepslatePlatinumConfig = new OreConfiguration(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, Registration.PLATINUM_ORE_DEEPSLATE.get().defaultBlockState(), OresConfig.DEEPSLATE_VEINSIZE.get());
+
+        OVERWORLD_OREGEN = registerPlacedFeature("overworld_aluminum_ore", new ConfiguredFeature<>(Feature.ORE, aluminumConfig),
                 CountPlacement.of(OresConfig.OVERWORLD_AMOUNT.get()),
                 InSquarePlacement.spread(),
                 BiomeFilter.biome(),
                 HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(90)));
 
-        OreConfiguration overworldConfig= new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.PLATINUM_ORE.get().defaultBlockState(), OresConfig.OVERWORLD_VEINSIZE.get());
-        OVERWORLD_OREGEN = registerPlacedFeature("overworld_platinum_ore", new ConfiguredFeature<>(Feature.ORE, overworldConfig),
+        OVERWORLD_OREGEN = registerPlacedFeature("overworld_platinum_ore", new ConfiguredFeature<>(Feature.ORE, platinumConfig),
                 CountPlacement.of(OresConfig.OVERWORLD_AMOUNT.get()),
                 InSquarePlacement.spread(),
                 BiomeFilter.biome(),
                 HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(90)));
 
-        OreConfiguration deepslateConfig = new OreConfiguration(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, Registration.ALUMINUM_ORE_DEEPSLATE.get().defaultBlockState(), OresConfig.DEEPSLATE_VEINSIZE.get());
-        DEEPSLATE_OREGEN = registerPlacedFeature("deepslate_aluminum_ore", new ConfiguredFeature<>(Feature.ORE, deepslateConfig),
+        DEEPSLATE_OREGEN = registerPlacedFeature("deepslate_aluminum_ore", new ConfiguredFeature<>(Feature.ORE, deepslateAluminumConfig),
                 CountPlacement.of(OresConfig.DEEPSLATE_AMOUNT.get()),
                 InSquarePlacement.spread(),
                 BiomeFilter.biome(),
                 HeightRangePlacement.uniform(VerticalAnchor.bottom(), VerticalAnchor.aboveBottom(64)));
-        registerPlacedFeature("deepslate_platinum_ore", new ConfiguredFeature<>(Feature.ORE, deepslateConfig),
+
+        DEEPSLATE_OREGEN = registerPlacedFeature("deepslate_platinum_ore", new ConfiguredFeature<>(Feature.ORE, deepslatePlatinumConfig),
                 CountPlacement.of(OresConfig.DEEPSLATE_AMOUNT.get()),
                 InSquarePlacement.spread(),
                 BiomeFilter.biome(),
                 HeightRangePlacement.uniform(VerticalAnchor.bottom(), VerticalAnchor.aboveBottom(64)));
+
     }
 
     private static <C extends FeatureConfiguration, F extends Feature<C>> Holder<PlacedFeature> registerPlacedFeature(String registryName, ConfiguredFeature<C, F> feature, PlacementModifier... placementModifiers) {

@@ -23,7 +23,7 @@ public class OresConfig {
         OVERWORLD_VEINSIZE = COMMON_BUILDER
                 .defineInRange("overworldVeinsize", 5, 1, Integer.MAX_VALUE);
         OVERWORLD_AMOUNT = COMMON_BUILDER
-                .defineInRange("overworldAmount", 3, 1, Integer.MAX_VALUE);
+                .defineInRange("overworldAmount", 100, 1, Integer.MAX_VALUE);
         DEEPSLATE_VEINSIZE = COMMON_BUILDER
                 .defineInRange("deepslateVeinsize", 5, 1, Integer.MAX_VALUE);
         DEEPSLATE_AMOUNT = COMMON_BUILDER
