@@ -20,7 +20,6 @@ public class MCILootTables extends BaseLootTableProvider {
        lootTables.put(Registration.ALUMINUM_BLOCK.get(), createSimpleTable("aluminium_block", Registration.ALUMINUM_BLOCK.get()));
 
        lootTables.put(Registration.PLATINUM_ORE.get(), createSilkTouchTable("platinum_ore", Registration.PLATINUM_ORE.get(), Registration.RAW_PLATINUM.get(), 1, 1));
-       lootTables.put(Registration.PLATINUM_ORE_NETHER.get(), createSilkTouchTable("platinum_ore_nether", Registration.PLATINUM_ORE_NETHER.get(), Registration.RAW_PLATINUM.get(), 1, 1));
        lootTables.put(Registration.PLATINUM_ORE_DEEPSLATE.get(), createSilkTouchTable("platinum_ore_deepslate", Registration.PLATINUM_ORE_DEEPSLATE.get(), Registration.RAW_PLATINUM.get(), 1, 1));
        lootTables.put(Registration.PLATINUM_BLOCK.get(), createSimpleTable("platinum_block", Registration.PLATINUM_BLOCK.get()));
     }

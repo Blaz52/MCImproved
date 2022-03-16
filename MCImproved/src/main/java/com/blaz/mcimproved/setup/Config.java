@@ -22,8 +22,8 @@ public class Config {
 
     private static void registerCommonConfigs() {
         ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, COMMON_BUILDER.build());
         OresConfig.registerCommonConfig(COMMON_BUILDER);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, COMMON_BUILDER.build());
     }
     private static void registerClientConfigs() {
         ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();

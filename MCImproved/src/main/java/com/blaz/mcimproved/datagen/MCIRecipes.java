@@ -50,6 +50,16 @@ public class MCIRecipes extends RecipeProvider {
                         Registration.ALUMINUM_INGOT.get(), 0.0f, 100)
                 .unlockedBy("has_chunk", has(Registration.RAW_ALUMINUM.get()))
                 .save(consumer, "aluminum_ingot2");
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.PLATINUM_ORE_ITEM1),
+                        Registration.PLATINUM_INGOT.get(), 1.0f, 100)
+                .unlockedBy("has_ore", inventoryTrigger(ItemPredicate.Builder.item().of(Registration.PLATINUM_ORE_ITEM1).build()))
+                .save(consumer, "platinum_ingot1");
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.RAW_PLATINUM.get()),
+                        Registration.PLATINUM_INGOT.get(), 0.0f, 100)
+                .unlockedBy("has_chunk", has(Registration.RAW_PLATINUM.get()))
+                .save(consumer, "platinum_ingot2");
     }
 
 

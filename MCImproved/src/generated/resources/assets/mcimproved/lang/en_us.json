@@ -2,17 +2,12 @@
   "block.mcimproved.aluminum_block": "Block of Aluminum",
   "block.mcimproved.aluminum_ore": "Aluminum ore",
   "block.mcimproved.aluminum_ore_deepslate": "Aluminum ore",
-  "block.mcimproved.aluminum_ore_nether": "Aluminum ore",
   "block.mcimproved.platinum_block": "Block of Platinum",
   "block.mcimproved.platinum_ore": "Platinum ore",
   "block.mcimproved.platinum_ore_deepslate": "Platinum ore",
-  "block.mcimproved.platinum_ore_nether": "Platinum ore",
-  "block.mcimproved.powergen": "Power Generator",
   "item.mcimproved.aluminum_ingot": "Aluminum Ingot",
   "item.mcimproved.platinum_ingot": "Platinum Ingot",
   "item.mcimproved.raw_aluminum": "Raw Aluminum",
   "item.mcimproved.raw_platinum": "Raw Platinum",
   "itemGroup.mcimproved": "MCI",
-  "message.powergen": "%s/tick!",
-  "screen.mci.powergen": "Power generator"
 }

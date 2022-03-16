@@ -23,7 +23,6 @@ public class MCIItemTags extends ItemTagsProvider {
 
                 .add(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get())
                 .add(Registration.PLATINUM_ORE_ITEM.get())
-                .add(Registration.PLATINUM_ORE_NETHER_ITEM.get())
                 .add(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get());
         tag(Tags.Items.INGOTS)
                 .add(Registration.ALUMINUM_INGOT.get())
@@ -32,10 +31,9 @@ public class MCIItemTags extends ItemTagsProvider {
                 .add(Registration.ALUMINUM_ORE_ITEM.get())
 
                 .add(Registration.ALUMINUM_ORE_DEEPSLATE_ITEM.get());
-        //tag(Registration.PLATINUM_ORE_ITEM_ALL)
-          //      .add(Registration.PLATINUM_ORE_ITEM.get())
-            //    .add(Registration.PLATINUM_ORE_NETHER_ITEM.get())
-              //  .add(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get());
+        tag(Registration.PLATINUM_ORE_ITEM1)
+                .add(Registration.PLATINUM_ORE_ITEM.get())
+                .add(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get());
     }
 
     @Override

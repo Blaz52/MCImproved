@@ -16,26 +16,27 @@ public class OresConfig {
     public static ForgeConfigSpec.IntValue END_VEINSIZE;
     public static ForgeConfigSpec.IntValue END_AMOUNT;
 
+
     public static void registerCommonConfig(ForgeConfigSpec.Builder COMMON_BUILDER) {
         COMMON_BUILDER.push("ores");
 
-
         OVERWORLD_VEINSIZE = COMMON_BUILDER
-                .defineInRange("overworldVeinsize", 5, 2, Integer.MAX_VALUE);
+                .defineInRange("overworldVeinsize", 5, 1, Integer.MAX_VALUE);
         OVERWORLD_AMOUNT = COMMON_BUILDER
-                .defineInRange("overworldAmount", 3, 2, Integer.MAX_VALUE);
+                .defineInRange("overworldAmount", 3, 1, Integer.MAX_VALUE);
         DEEPSLATE_VEINSIZE = COMMON_BUILDER
-                .defineInRange("deepslateVeinsize", 5, 2, Integer.MAX_VALUE);
+                .defineInRange("deepslateVeinsize", 5, 1, Integer.MAX_VALUE);
         DEEPSLATE_AMOUNT = COMMON_BUILDER
-                .defineInRange("deepslateAmount", 3, 2, Integer.MAX_VALUE);
+                .defineInRange("deepslateAmount", 3, 1, Integer.MAX_VALUE);
         NETHER_VEINSIZE = COMMON_BUILDER
-                .defineInRange("netherVeinsize", 5, 2, Integer.MAX_VALUE);
+                .defineInRange("netherVeinsize", 5, 1, Integer.MAX_VALUE);
         NETHER_AMOUNT = COMMON_BUILDER
-                .defineInRange("netherAmount", 3, 2, Integer.MAX_VALUE);
+                .defineInRange("netherAmount", 3, 1, Integer.MAX_VALUE);
         END_VEINSIZE = COMMON_BUILDER
-                .defineInRange("endVeinsize", 10, 2, Integer.MAX_VALUE);
+                .defineInRange("endVeinsize", 10, 1, Integer.MAX_VALUE);
         END_AMOUNT = COMMON_BUILDER
-                .defineInRange("endAmount", 6, 2, Integer.MAX_VALUE);
+                .defineInRange("endAmount", 6, 1, Integer.MAX_VALUE);
+
 
         COMMON_BUILDER.pop();
     }

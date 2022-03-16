@@ -49,11 +49,6 @@ public class Registration {
 
       }
 
-
-
-
-
-
     public static final BlockBehaviour.Properties BLOCK_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops();
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
    
@@ -70,14 +65,12 @@ public class Registration {
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot", () -> new Item(ITEM_PROPERTIES));
 
     public static final TagKey<Block> ALUMINUM_ORE1 = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(MCImproved.MODID, "aluminum_ore"));
-    public static final TagKey<Item> ALUMINUM_ORE_ITEM1 = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation(MCImproved.MODID, "mysterious_ore"));
+    public static final TagKey<Item> ALUMINUM_ORE_ITEM1 = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation(MCImproved.MODID, "aluminum_ore"));
 
 
     //PLATINUM
     public static final RegistryObject<Block> PLATINUM_ORE = BLOCKS.register("platinum_ore", () -> new Block(BLOCK_PROPERTIES));
     public static final RegistryObject<Item> PLATINUM_ORE_ITEM = fromBlock(PLATINUM_ORE);
-    public static final RegistryObject<Block> PLATINUM_ORE_NETHER = BLOCKS.register("platinum_ore_nether", () -> new Block(BLOCK_PROPERTIES));
-    public static final RegistryObject<Item> PLATINUM_ORE_NETHER_ITEM = fromBlock(PLATINUM_ORE_NETHER);
     public static final RegistryObject<Block> PLATINUM_ORE_DEEPSLATE = BLOCKS.register("platinum_ore_deepslate", () -> new Block(BLOCK_PROPERTIES));
     public static final RegistryObject<Item> PLATINUM_ORE_DEEPSLATE_ITEM = fromBlock(PLATINUM_ORE_DEEPSLATE);
     public static final RegistryObject<Block> PLATINUM_BLOCK = BLOCKS.register("platinum_block", () -> new Block(BLOCK_PROPERTIES));
@@ -85,6 +78,9 @@ public class Registration {
 
     public static final RegistryObject<Item> RAW_PLATINUM= ITEMS.register("raw_platinum", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(ITEM_PROPERTIES));
+
+    public static final TagKey<Block> PLATINUM_ORE1 = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(MCImproved.MODID, "platinum_ore"));
+    public static final TagKey<Item> PLATINUM_ORE_ITEM1 = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation(MCImproved.MODID, "platinum_ore"));
 
 
     //SPECIAL

@@ -35,8 +35,20 @@ public class Ores {
                 BiomeFilter.biome(),
                 HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(90)));
 
+        OreConfiguration overworldConfig= new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.PLATINUM_ORE.get().defaultBlockState(), OresConfig.OVERWORLD_VEINSIZE.get());
+        OVERWORLD_OREGEN = registerPlacedFeature("overworld_platinum_ore", new ConfiguredFeature<>(Feature.ORE, overworldConfig),
+                CountPlacement.of(OresConfig.OVERWORLD_AMOUNT.get()),
+                InSquarePlacement.spread(),
+                BiomeFilter.biome(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(90)));
+
         OreConfiguration deepslateConfig = new OreConfiguration(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, Registration.ALUMINUM_ORE_DEEPSLATE.get().defaultBlockState(), OresConfig.DEEPSLATE_VEINSIZE.get());
         DEEPSLATE_OREGEN = registerPlacedFeature("deepslate_aluminum_ore", new ConfiguredFeature<>(Feature.ORE, deepslateConfig),
+                CountPlacement.of(OresConfig.DEEPSLATE_AMOUNT.get()),
+                InSquarePlacement.spread(),
+                BiomeFilter.biome(),
+                HeightRangePlacement.uniform(VerticalAnchor.bottom(), VerticalAnchor.aboveBottom(64)));
+        registerPlacedFeature("deepslate_platinum_ore", new ConfiguredFeature<>(Feature.ORE, deepslateConfig),
                 CountPlacement.of(OresConfig.DEEPSLATE_AMOUNT.get()),
                 InSquarePlacement.spread(),
                 BiomeFilter.biome(),

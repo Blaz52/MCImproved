@@ -19,7 +19,6 @@ public class MCIItemModels extends ItemModelProvider {
         withExistingParent(Registration.ALUMINUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/aluminum_block"));
 
         withExistingParent(Registration.PLATINUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore"));
-        withExistingParent(Registration.PLATINUM_ORE_NETHER_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore_nether"));
         withExistingParent(Registration.PLATINUM_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_ore_deepslate"));
         withExistingParent(Registration.PLATINUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/platinum_block"));
 

@@ -20,9 +20,10 @@ public class MCImproved {
     public static final String MODID = "mcimproved";
 
     public MCImproved() {
-        ModSetup.setup();
-        Registration.init();
         Config.register();
+        Registration.init();
+        ModSetup.setup();
+
 
 
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();

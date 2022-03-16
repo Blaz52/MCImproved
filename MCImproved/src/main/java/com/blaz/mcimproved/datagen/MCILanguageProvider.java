@@ -22,15 +22,13 @@ public class MCILanguageProvider extends LanguageProvider {
 
         add(Registration.ALUMINUM_BLOCK.get(), "Block of Aluminum");
         add(Registration.ALUMINUM_ORE.get(), "Aluminum ore");
-
-        add(Registration.ALUMINUM_ORE_DEEPSLATE.get(), "Aluminum ore");
+        add(Registration.ALUMINUM_ORE_DEEPSLATE.get(), "Deepslate Aluminum ore");
         add(Registration.ALUMINUM_INGOT.get(), "Aluminum Ingot");
         add(Registration.RAW_ALUMINUM.get(), "Raw Aluminum");
 
         add(Registration.PLATINUM_BLOCK.get(), "Block of Platinum");
         add(Registration.PLATINUM_ORE.get(), "Platinum ore");
-        add(Registration.PLATINUM_ORE_NETHER.get(), "Platinum ore");
-        add(Registration.PLATINUM_ORE_DEEPSLATE.get(), "Platinum ore");
+        add(Registration.PLATINUM_ORE_DEEPSLATE.get(), "Deepslate Platinum ore");
         add(Registration.PLATINUM_INGOT.get(), "Platinum Ingot");
         add(Registration.RAW_PLATINUM.get(), "Raw Platinum");
         
